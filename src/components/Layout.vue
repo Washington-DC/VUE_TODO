@@ -3,16 +3,21 @@
     <section class="menu">
       <menus></menus>
     </section>
-    <section class="content-container"></section>
+
+    <section class="content-container">
+      <todo></todo>
+    </section>
   </section>
 </template>
 
 <script>
 import menus from "./Menus";
+import todo from "./todo";
 
 export default {
   components: {
-    menus
+    menus,
+    todo
   }
 };
 </script>
@@ -20,4 +25,3 @@ export default {
 <style lang="less">
 @import "../common/style/layouts.less";
 </style>
-    
